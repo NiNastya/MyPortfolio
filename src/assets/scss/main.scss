@@ -3,7 +3,9 @@
 
 @import "config.scss";
 
-// @import "components/menu.scss";
-// @import "components/player.scss";
+@import "components/header.scss";
+@import "components/footer.scss";
+@import "components/card.scss";
+@import "components/modal.scss";
 
-// @import "pages/home.scss";
+@import "pages/home.scss";

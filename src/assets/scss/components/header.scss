@@ -1,0 +1,45 @@
+.header {
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    background: #2C2C2C;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+    }
+    &-logo {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    nav {
+        width: 100%;
+        max-width: 650px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        a {
+            position: relative;
+            &:before {
+                content: ' ';
+                width: 0;
+                height: 2px;
+                background: #E2A300;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
