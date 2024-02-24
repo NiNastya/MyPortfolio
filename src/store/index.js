@@ -36,6 +36,15 @@ export const store = reactive({
     ],
     projects: [
         {
+            image: '/project/my.png',
+            title: 'MyProtfolio',
+            link: '/',
+            stack: ['Vue'],
+            mystack: ['FrontEnd'],
+            git: 'https://github.com/NiNastya/MyPortfolio',
+            descript: 'Сайт моего портфоли, прилогаю ссылку на GitHab'
+        },
+        {
             image: '/project/mg.png',
             title: 'Magnum',
             link: 'https://magnum.kz/',

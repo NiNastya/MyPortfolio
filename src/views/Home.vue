@@ -18,6 +18,7 @@ function SetModal(item) {
                     <span>Привет</span>
                     <h1>Я Илья </h1>
                     <p>Я FronEnd разработчик, занимаюсь этим уже более 5 лет, первые 3 года я работал на фрилансе с cms WordPress, последнии 2 года я пишу на Vue.js и Nuxt.js. Так же есть навыки с BackEnd разработкой на Node (Strapi), PHP Laravel</p>
+                    <p>Работаю с локализацие I18n, SSR, Scss, Бэм, Mixin, YandexMap, AOS, Анимации, FullRestApi, настройка сервера через SSH, деплой проектов на сервер, уменее читать чужой код,</p>
                     <!-- <router-link to="#project">
                         <button>Мои работы</button>
                     </router-link> -->
