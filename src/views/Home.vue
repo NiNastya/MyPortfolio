@@ -44,11 +44,12 @@ function SetModal(item) {
         <section class="home-works" id="project">
             <div class="container">
                 <div class="title">Мои работы</div>
+                <div class="subtitle">В гите у меня около 100 проектов, все здесь не отображены</div>
                 <div class="home-works__filter">
 
                 </div>
                 <div class="home-works__grid">
-                    <Card  v-for="(item, i) in store.projects" :key="i" :item="item" @click="store.modal = item"/>
+                    <Card  v-for="(item, i) in store.projects" :key="i" :work="item" @click="store.modal = item"/>
                 </div>
             </div>
         </section>
