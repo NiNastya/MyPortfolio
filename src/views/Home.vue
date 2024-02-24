@@ -18,9 +18,12 @@ function SetModal(item) {
                     <span>Привет</span>
                     <h1>Я Илья </h1>
                     <p>Я FronEnd разработчик, занимаюсь этим уже более 5 лет, первые 3 года я работал на фрилансе с cms WordPress, последнии 2 года я пишу на Vue.js и Nuxt.js. Так же есть навыки с BackEnd разработкой на Node (Strapi), PHP Laravel</p>
-                    <router-link to="#project">
+                    <!-- <router-link to="#project">
                         <button>Мои работы</button>
-                    </router-link>
+                    </router-link> -->
+                    <a href="#project">
+                        <button>Мои работы</button>
+                    </a>
                     
                 </div>
                 <div class="home-banner__img">
@@ -28,7 +31,7 @@ function SetModal(item) {
                 </div>
             </div>
         </section>
-        <section class="home-skils">
+        <section class="home-skils" id="about">
             <div class="container">
                 <div class="title">Мой стек технологий</div>
                 <div class="home-skils__items">
