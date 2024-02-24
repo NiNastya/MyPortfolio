@@ -1,4 +1,5 @@
 .home {
+    @include sm-block() {}
     &-banner {
         padding-bottom: 0;
 

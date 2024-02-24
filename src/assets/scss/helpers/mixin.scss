@@ -1,0 +1,7 @@
+$break_sm: 768px;
+
+@mixin sm-block() {
+    @media screen and (max-width: $break_sm) {
+        @content;
+    }
+}
