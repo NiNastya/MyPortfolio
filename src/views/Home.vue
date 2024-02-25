@@ -53,7 +53,7 @@ function SetModal(item) {
 
                 </div>
                 <div class="home-works__grid">
-                    <Card  v-for="(item, i) in store.projects" :key="i" :work="item" @click="store.modal = item"/>
+                    <Card  v-for="(item, i) in store.projects" :key="i" :work="item" @click="store.modal = item" />
                 </div>
             </div>
         </section>

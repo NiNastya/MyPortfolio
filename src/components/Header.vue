@@ -1,5 +1,7 @@
 <script setup>
-    import Logo from './Icons/Logo.vue'
+import { ref } from 'vue'
+import Logo from './Icons/Logo.vue'
+const burger = ref(false)    
 </script>
 
 <template>
@@ -9,7 +11,7 @@
                 <Logo />
                 MyProtfolio
             </router-link>
-            <nav>
+            <nav :class="{active: burger}" @click="burger = !burger">
                 <!-- <router-link to="/">Главная</router-link>
                 <router-link to="#about">Обо мне</router-link>
                 <router-link to="#project">Мои работы</router-link>
@@ -19,6 +21,11 @@
                 <a href="#project">Мои работы</a>
                 <!-- <a href="#contacts">Контакты</a> -->
             </nav>
+            <div class="header-burger" @click="burger = !burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </header>
 </template>
