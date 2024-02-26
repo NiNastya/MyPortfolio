@@ -38,7 +38,7 @@ function SetModal(item) {
                 <div class="home-skils__items">
                     <div class="home-skils__item" v-for="(item, i) in store.skills" :key="i">
                         <div class="home-skils__item-img">
-                            <img :src="item.image" alt="">
+                            <img :src="`https://ninastya.github.io/MyPortfolio/${item.image}`" alt="">
                         </div>
                         <p>{{ item.text }}</p>
                     </div>

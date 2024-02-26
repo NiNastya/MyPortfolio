@@ -6,7 +6,7 @@ const props = defineProps({
 
 <template>
     <div class="card-project">
-        <img :src=" props.work.image" alt="">
+        <img :src="`https://ninastya.github.io/MyPortfolio/${props.work.image}` " alt="">
         <div class="card-project__hover">
             
             <p>{{ props.work.title }}</p>

@@ -8,7 +8,7 @@ import { store } from '../store'
         <div class="modal-block" @click.stop="">
             <div class="modal-project">
                 <div class="modal-project__img">
-                    <img :src="store.modal.image" alt="">
+                    <img :src="`https://ninastya.github.io/MyPortfolio/${store.modal.image}`" alt="">
                 </div>
                 <div class="modal-project__info">
                     <h2>{{ store.modal.title }}</h2>
